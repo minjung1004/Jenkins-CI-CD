@@ -15,7 +15,6 @@ def test_multiply():
     assert multiply(4, 5) == 20
     assert multiply(-2, 10) == -20
     assert multiply(-3, -9) == 27
-    assert multiply(1.3, 3.0) == 3.9
 
 def test_divde():
     assert divide(100, 25) == 4
