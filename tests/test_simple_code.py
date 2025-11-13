@@ -1,5 +1,5 @@
 import pytest 
-from simple_code import add, subtract, multiply, divide
+from simple_code import add, subtract, multiply, divide, power
 
 def test_add():
     assert add(5, 7) == 12
@@ -23,10 +23,7 @@ def test_divde():
     
     with pytest.raises(ValueError):
         divide(2, 0) 
-        
-
-'''  
+         
 def test_power():
     assert power(2, 3) == 9
     assert power(-2, 2) == 4
-''' 
